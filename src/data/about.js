@@ -1,0 +1,53 @@
+export const about = {
+  bio: 'I am an engineer and researcher who likes to break problems down to first principles, then rebuild them into systems that work. This bio is placeholder copy for the site skeleton — replace it with a short paragraph about your path, focus areas, and what you are building now.',
+  education: [
+    {
+      id: 'edu-major',
+      kind: 'major',
+      title: 'BSc in Engineering (Placeholder)',
+      org: 'University Name',
+      status: 'ongoing',
+      year: '2026',
+    },
+    {
+      id: 'edu-cert-1',
+      kind: 'cert',
+      title: 'Machine Learning Specialization',
+      org: 'Coursera',
+      status: 'completed',
+      year: '2024',
+    },
+    {
+      id: 'edu-cert-2',
+      kind: 'cert',
+      title: 'Deep Learning Nanodegree',
+      org: 'Udacity',
+      status: 'completed',
+      year: '2025',
+    },
+    {
+      id: 'edu-course-1',
+      kind: 'course',
+      title: 'OpenAI API for Developers',
+      org: 'Online',
+      status: 'ongoing',
+      year: '2026',
+    },
+    {
+      id: 'edu-course-2',
+      kind: 'course',
+      title: 'Systems Thinking',
+      org: 'Independent',
+      status: 'completed',
+      year: '2023',
+    },
+  ],
+  techStack: [
+    { id: 'tech-python', name: 'Python', icon: 'Py' },
+    { id: 'tech-c', name: 'C', icon: 'C' },
+    { id: 'tech-js', name: 'JavaScript', icon: 'JS' },
+    { id: 'tech-react', name: 'React', icon: 'Re' },
+    { id: 'tech-openai', name: 'OpenAI SDK', icon: 'AI' },
+    { id: 'tech-git', name: 'Git', icon: 'Gt' },
+  ],
+};
