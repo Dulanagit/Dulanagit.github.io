@@ -5,7 +5,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="container">
         <p>
-          {site.name} · Portfolio Website · All rights reserved
+        © {new Date().getFullYear()} Dulana Avishka · Sri Lanka
         </p>
       </div>
     </footer>
