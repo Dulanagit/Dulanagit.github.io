@@ -1,34 +1,19 @@
 export const engineering = [
   {
     id: 'eng-1',
-    title: 'Engineering project Alpha',
-    summary: 'A product or system that shows engineering judgment. Replace with a real title, image, and link.',
+    title: 'StudyBuddy Chatbot',
+    summary: 'A chatbot that helps students with their studies by providing information and answering questions based on their course materials.',
     image: null,
-    href: 'https://example.com/eng-1',
-    tags: ['Full-stack'],
+    href: 'https://chatwithstudybuddy.streamlit.app/',
+    tags: ['Full-stack', 'Streamlit', 'Python', 'Langchain'],
   },
   {
     id: 'eng-2',
-    title: 'Engineering project Beta',
-    summary: 'Second project card for the engineering grid.',
+    title: 'TravelAgent',
+    summary: 'A travel agent that helps users plan their trips within Sri Lanka by providing weather information and places to visit.',
     image: null,
-    href: 'https://example.com/eng-2',
-    tags: ['APIs'],
+    href: 'https://github.com/Dulanagit/TravelAgent.git',
+    tags: ['Agentic', 'Streamlit', 'Python', 'LangGraph', 'API'],
   },
-  {
-    id: 'eng-3',
-    title: 'Engineering project Gamma',
-    summary: 'Third project so three cards show before expansion.',
-    image: null,
-    href: 'https://example.com/eng-3',
-    tags: ['Tooling'],
-  },
-  {
-    id: 'eng-4',
-    title: 'Engineering project Delta',
-    summary: 'Fourth project, hidden behind Show more.',
-    image: null,
-    href: 'https://example.com/eng-4',
-    tags: ['Open source'],
-  },
+  
 ];

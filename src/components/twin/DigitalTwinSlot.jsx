@@ -4,8 +4,7 @@ function DigitalTwinSlot() {
       <p className="section-kicker">Digital twin</p>
       <h3>Ask about me</h3>
       <p className="card-summary">
-        Reserved space for a future agent that can answer questions about this portfolio.
-        Drop the chat UI here without moving the Contact section.
+        To be added soon...
       </p>
     </div>
   );
