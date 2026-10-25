@@ -12,6 +12,9 @@ function Contact() {
         <a className="text-link" href={site.linkedin} target="_blank" rel="noreferrer">
           LinkedIn
         </a>
+        <a className="text-link" href={site.github} target="_blank" rel="noreferrer">
+          GitHub
+        </a>
       </div>
       <DigitalTwinSlot />
     </Section>

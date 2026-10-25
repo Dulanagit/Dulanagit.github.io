@@ -5,7 +5,7 @@ function Footer() {
     <footer className="site-footer">
       <div className="container">
         <p>
-          {site.name} · portfolio skeleton
+          {site.name} · Portfolio Website · All rights reserved
         </p>
       </div>
     </footer>

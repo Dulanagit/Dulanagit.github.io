@@ -11,6 +11,7 @@ export const site = {
   ],
   email: 'dulanaavishka@gmail.com',
   linkedin: 'https://www.linkedin.com/in/dulana-avishka-b3177b355',
+  github: 'https://github.com/Dulanagit',
   nav: [
     { id: 'hero', label: 'Home', href: '#hero' },
     { id: 'about', label: 'About', href: '#about' },
