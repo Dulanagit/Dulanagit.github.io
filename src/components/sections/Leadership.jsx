@@ -4,7 +4,7 @@ import ShowMore from '../ui/ShowMore';
 
 function Leadership() {
   return (
-    <Section id="leadership" kicker="Leadership" title="Leadership and social impact">
+    <Section id="leadership" kicker="Leadership" title="Leadership and social contributions">
       <ShowMore items={leadership} limit={3}>
         {(items) => (
           <ul className="role-list">
