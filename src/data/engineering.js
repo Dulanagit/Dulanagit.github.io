@@ -1,11 +1,13 @@
 import aimaxImage from '../assets/aimax.jpeg';
+import studybuddyImage from '../assets/studybudy.png';
+import travelagentImage from '../assets/travelagent.png';
 
 export const engineering = [
   {
     id: 'eng-1',
     title: 'StudyBuddy Chatbot',
     summary: 'A chatbot that helps students with their studies by providing information and answering questions based on their course materials.',
-    image: null,
+    image: studybuddyImage,
     href: 'https://chatwithstudybuddy.streamlit.app/',
     tags: ['Full-stack', 'Streamlit', 'Python', 'Langchain'],
   },
@@ -13,7 +15,7 @@ export const engineering = [
     id: 'eng-2',
     title: 'TravelAgent',
     summary: 'A travel agent that helps users plan their trips within Sri Lanka by providing weather information and places to visit.',
-    image: null,
+    image: travelagentImage,
     href: 'https://github.com/Dulanagit/TravelAgent.git',
     tags: ['Agentic', 'Streamlit', 'Python', 'LangGraph', 'API'],
   },
