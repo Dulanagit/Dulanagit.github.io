@@ -1,3 +1,5 @@
+import aimaxImage from '../assets/aimax.jpeg';
+
 export const engineering = [
   {
     id: 'eng-1',
@@ -19,7 +21,7 @@ export const engineering = [
     id: 'eng-3',
     title: 'AIMax - Game Playing Robot',
     summary: 'A robot that controls a steering wheel, pedals and a gmaing controller to play car racing games and gaming controller games.',
-    image: './assets/images/aimax.jpeg',
+    image: aimaxImage,
     href: 'https://github.com/AIMax-Project-Space',
     tags: ['Microcontroller', 'ESP32', 'Hardware'],
   }
