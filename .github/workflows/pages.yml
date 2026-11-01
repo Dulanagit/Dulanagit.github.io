@@ -17,6 +17,7 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -26,7 +27,7 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          VITE_TWIN_API_URL: ${{ secrets.VITE_TWIN_API_URL }}
+          VITE_TWIN_API_URL: ${{ vars.VITE_TWIN_API_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
